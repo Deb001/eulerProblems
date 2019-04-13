@@ -8,26 +8,6 @@ Input: nrfzh
 Output: quick
 '''
 
-import math
-def isPrime(num):
-    val = (int) (math.sqrt(num))
-    for i in range(2,val +1):
-        if num % i == 0:
-            return 0
-    return 1
-
-def nthPrime(range, n):
-    if n == 0 or n > range:
-        return -1
-    num = 2
-    count = 1
-    while (count < n and num < range):
-        if (isPrime(num)):
-            count = count + 1
-        num = num + 1
-    return num -1
-# print(nthPrime(1000,50))
-
 
 ip = "nrfzh"
 
