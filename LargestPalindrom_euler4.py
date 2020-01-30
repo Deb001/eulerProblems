@@ -1,4 +1,5 @@
 
+# Euler 4: Find the largest palindrome made from the product of two 3-digit numbers
 import math
 
 def isPalindrom(num):
@@ -13,7 +14,7 @@ def isPalindrom(num):
     else:
         return 0
 
-
+# checks if the number is a prime. 
 def isPrime(num):
     val = (int) (math.sqrt(num))
     for i in range(2,val +1):
